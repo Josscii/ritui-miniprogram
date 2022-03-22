@@ -1,0 +1,140 @@
+.container {
+  height: 100%;
+  color: #171717;
+
+  padding: 80px 0;
+}
+
+.center {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card {
+  margin: 0 40px;
+  padding: 24px;
+  box-shadow: 0 2px 6px -1px rgb(0 0 0 / 0.2);
+  border-radius: 16px;
+
+  .userInfo {
+    display: flex;
+    align-items: center;
+
+    image {
+      background-color: #d4d4d4;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+    }
+
+    .nickName {
+      margin-left: 8px;
+    }
+
+    .time {
+      margin-left: auto;
+      font-size: 0.8rem;
+    }
+  }
+
+  .content {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 20px;
+  }
+
+  .response {
+    display: flex;
+    align-items: center;
+
+    text {
+      margin-left: auto;
+    }
+
+    image {
+      margin-left: 4px;
+      width: 16px;
+      height: 16px;
+    }
+  }
+}
+
+.header {
+  position: absolute;
+  top: 24px;
+  right: 40px;
+
+  image {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+  }
+
+  .login {
+    padding: 4px;
+    border: 1px solid #d4d4d4;
+  }
+}
+
+.empty {
+  text {
+    display: block;
+    text-align: center;
+  }
+}
+
+.post {
+  margin: 0 40px;
+  color: #171717;
+
+  textarea {
+    width: 100%;
+    height: 240px;
+    border: 1px solid #d4d4d4;
+    border-radius: 8px;
+    padding: 24px;
+    box-sizing: border-box;
+  }
+
+  view {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+
+    button {
+      margin: 0;
+    }
+
+    .giveup {
+      margin-left: auto;
+      margin-right: 8px;
+    }
+  }
+}
+
+.audit {
+  text {
+    display: block;
+    text-align: center;
+  }
+}
+
+.guide {
+  color: #171717;
+  padding: 80px 0;
+
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  text {
+    display: block;
+    font-size: 24px;
+
+    padding-bottom: 8px;
+  }
+}
